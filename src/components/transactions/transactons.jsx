@@ -1,11 +1,11 @@
 import React from "react";
-import "./transactions.css";
-
+import styles from"./transactions.module.css";
+import PropTypes from "prop-types";
 const TransactionHistory = ({transactions}) => {
   return (
     <>
-      <section className="transactions">
-        <table className="transaction-history">
+      <section className={styles.transactions}>
+        <table className={styles.transaction__history}>
           <thead>
             <tr > 
               <th>Type</th>
@@ -28,5 +28,7 @@ const TransactionHistory = ({transactions}) => {
     </>
   );
 };
-
+TransactionHistory.PropTypes = {
+    transactions : PropTypes.object.isRequired,
+}
 export default TransactionHistory;

@@ -1,21 +1,21 @@
 import React from "react";
-import "./friends.css";
+import styles from "./friends.module.css";
 
 const FriendList = ({ friends }) => {
   return (
     <>
-      <section className="friends">
-        <ul className="friend-list">
+      <section className={styles.friends}>
+        <ul>
           {friends.map((friend) => (
-            <li className="item" key={friend.id}>
-              <span className={friend.isOnline.toString()}></span>
+            <li className={styles.item} key={friend.id}>
+              <span className={styles[friend.isOnline.toString()] }></span>
               <img
-                className="avatar__friend"
+                className={styles.avatar__friend}
                 src={friend.avatar}
                 alt="User avatar"
                 width="48"
               />
-              <p className="name">{friend.name}</p>
+              <p className={styles.avatar__name}>{friend.name}</p>
             </li>
           ))}
         </ul>

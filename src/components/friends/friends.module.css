@@ -1,20 +1,11 @@
 .friends {
-
-    flex-direction: column;
+    margin: auto;
+    background-color: white;
     max-width: 250px;
     width: 100%;
-    background-color: #fff;
-    margin: auto;
-    text-align: center;
-    margin: 20px auto;
-    color: #A0A4A6;
-    border-radius: 6px;
 }
 
-
 .avatar__friend {
-   
-
     border-radius: 10%;
 
 }
