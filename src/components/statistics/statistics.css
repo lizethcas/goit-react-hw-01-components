@@ -1,0 +1,40 @@
+.statistics{
+   
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+  /*   line-height: 100px; */
+    color: #A0A4A6;
+    border-radius: 6px;
+}
+.statistics h1 {
+    padding: 15px 0;
+}
+.stat-list{
+    display: flex;
+}
+.stat-list li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20%;
+    flex-wrap: wrap;
+    color: white;
+}
+.id-5,
+.id-1{
+    background-color: #4EC4FA;
+}
+.id-2{
+    background-color: #A23BF5;
+}
+.id-3{
+    background-color: #E54C67;
+}
+.id-4{
+    background-color: #20B8C4;
+}

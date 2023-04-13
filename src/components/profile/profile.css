@@ -1,0 +1,50 @@
+.profile {
+    margin: 20px auto;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+
+    border-radius: 5px;
+
+}
+
+.profile .description {
+    padding: 15px;
+}
+
+.profile .label {
+    color: #A4AEB9;
+}
+
+.profile p {
+    padding: 5px;
+
+}
+
+.avatar {
+    margin: auto;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+
+    border-top: solid 1px #E9EDF3;
+    background-color: #F3F6F9;
+    width: 100%
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    border-right: solid #E9EDF3;
+
+}

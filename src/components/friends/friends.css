@@ -1,0 +1,49 @@
+.friends {
+
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    margin: 20px auto;
+    color: #A0A4A6;
+    border-radius: 6px;
+}
+
+
+.avatar__friend {
+   
+
+    border-radius: 10%;
+
+}
+
+.item {
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.true {
+
+    background-color: #54AC56;
+}
+
+.item .false {
+
+    background-color: red;
+}
+
+.item .false,
+.true {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
