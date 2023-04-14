@@ -23,7 +23,5 @@ const FriendList = ({ friends }) => {
     </>
   );
 };
-FriendList.prototypes={
-    friends: PropTypes.object.required
-}
+
 export default FriendList;
