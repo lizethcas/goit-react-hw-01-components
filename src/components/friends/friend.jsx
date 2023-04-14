@@ -23,7 +23,5 @@ const FriendList = ({ friends }) => {
     </>
   );
 };
-FriendList.prototype={
-    friends: prototype.object.required
-}
+
 export default FriendList;
