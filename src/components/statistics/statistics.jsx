@@ -18,7 +18,7 @@ const Statistics = ({ data }) => {
     </>
   );
 };
-Statistics.prototype = {
+Statistics.prototypes = {
   data: PropTypes.object.isRequired,
 };
 export default Statistics;
